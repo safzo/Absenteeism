@@ -98,6 +98,8 @@ len(list_months)
 df_reason_mod['Month Value'] = list_months
 df_reason_mod.head(20)
 
+#Extracting the Day of the Week from the "Date" Column
+
 
 
 
