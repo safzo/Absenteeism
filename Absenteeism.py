@@ -107,7 +107,3 @@ def date_to_weekday(date_value):
 
 df_reason_mod['Day of the Week'] = df_reason_mod['Date'].apply(date_to_weekday)
 df_reason_mod.head()
-
-
-
-
