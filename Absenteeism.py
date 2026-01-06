@@ -112,3 +112,5 @@ df_reason_mod.head()
 type(df_reason_date_mod['Transportation Expense'][0])
 type(df_reason_date_mod['Distance to Work'][0])
 type(df_reason_date_mod['Age'][0])
+
+#
