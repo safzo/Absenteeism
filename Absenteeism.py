@@ -20,7 +20,6 @@ display(df)
 df.info()
 
 
-
 #Dropping a column from the copied DataFrame
 df = df.drop(['ID'], axis = 1)
 
