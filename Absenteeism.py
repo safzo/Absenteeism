@@ -87,6 +87,7 @@ df_reason_mod['Date'] = pd.to_datetime(df_reason_mod['Date'], format = '%d/%m/%Y
 
 
 
+
 #Extracting the Month value from Date and making a new Month column in the DataFrame
 list_months = []
 for i in range(df_reason_mod.shape[0]):
