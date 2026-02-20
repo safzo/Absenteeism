@@ -33,7 +33,6 @@ sorted(df['Reason for Absence'].unique()) #Here we find that once of the categor
 
 
 
-
 #Obtaining dummies from a single feature
 reason_columns = pd.get_dummies(df['Reason for Absence'])
 
