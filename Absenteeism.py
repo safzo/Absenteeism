@@ -20,7 +20,6 @@ display(df)
 df.info()
 
 
-
 #Dropping a column from the copied DataFrame
 df = df.drop(['ID'], axis = 1)
 
@@ -29,7 +28,7 @@ df['Reason for Absence'].min()
 df['Reason for Absence'].max()
 pd.unique(df['Reason for Absence']) #Another syntax: df['Reason for Absence'].unique()
 len(df['Reason for Absence'].unique())
-sorted(df['Reason for Absence'].unique()) #Here we find that once of the category is missing i.e. 20
+sorted(df['Reason for Absence'].unique()) #Here we find that one of the category is missing i.e., 20
 
 
 
